@@ -69,6 +69,7 @@
         $('#hero_list').append(html);
         var heroSwiper = new Swiper('.hero_swipwer_container', {
             slidesPerView: 5,
+            slidesPerGroup: 5,
             prevButton:'.swiper-button-prev',
             nextButton:'.swiper-button-next',
             spaceBetween: 5,
