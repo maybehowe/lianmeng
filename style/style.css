@@ -579,15 +579,15 @@ header {
     left: 10px;
 }
 .hero_type.hero_zhi{
-    background: url(../img/hero_zhi.png) center center no-repeat;
+    background: url(../img/hero/hero_zhi.png) center center no-repeat;
     background-size:42px 42px;
 }
 .hero_type.hero_li{
-    background: url(../img/hero_li.png) center center no-repeat;
+    background: url(../img/hero/hero_li.png) center center no-repeat;
     background-size:42px 42px;
 }
 .hero_type.hero_min{
-    background: url(../img/hero_min.png) center center no-repeat;
+    background: url(../img/hero/hero_min.png) center center no-repeat;
     background-size:42px 42px;
 }
 .news_swiper{
@@ -748,6 +748,23 @@ a.news_item{
 @media screen and (min-width:375px){
     .news_list .news{
         top: 36px;
+    }
+    .hero_name{
+        width: 30%;
+    }
+    .hero_txt{
+        width: 40%;
+    }
+}
+@media screen and (min-width:414px){
+    .news_list .news{
+        top: 45px;
+    }
+    .hero_name{
+        width: 26%;
+    }
+    .hero_txt{
+        width: 37%;
     }
 }
 
